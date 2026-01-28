@@ -71,17 +71,9 @@ generated = model.generate(idx, max_new_tokens=100, temperature=0.8)[page:0]
 print(enc.decode(generated[0].tolist()))
 ```
 
-## Full Code
-- Complete Google Colab notebook: [Link from article].
-- Includes data prep, model def, training, evaluation plot, inference.
+
 
 ## Results
 - Trains to low validation loss (~1.5-2.0).
 - Generates coherent short stories post-training.
 
-## Credits
-- Based on tutorial by Shravan Kumar (Jul 25, 2025).
-- Inspired by nanoGPT and Vizuara team resources.
-
-## License
-MIT License. See LICENSE file for details.
